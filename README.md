@@ -1,2 +1,1 @@
-# .github-workflows-jira-integrate-yml
-workflows
+# .github-workflows
