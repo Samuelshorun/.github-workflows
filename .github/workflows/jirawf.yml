@@ -5,13 +5,13 @@ on:
 
 jobs:
     run-integration:
-        runs-on: ubuntu-latest
+        runs-on: "ubuntu-latest"
 
         steps:
             - name: Run jira Integration
               uses: port-labs/ocean-sail@v1
               with:
-                type: jira
+                type: "jira"
                 port_client_id: "imDYobGss2xTm09QpxrxLsl5FKkCrhad"
                 port_client_secret: "jCHM2oO356tYpX3MZC8Gp3dsIwTy2N8uQrag1Q1e4g1exnPHXG6CfcNAt5A4RcEq"
                 config: |
